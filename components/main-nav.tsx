@@ -33,7 +33,7 @@ export function MainNav() {
           Items for Sale
         </Link>
         <Link
-          href="Customer_Help"
+          href="/Customer_Help"
           className={cn(
             "transition-colors hover:text-foreground/80",
             pathname?.startsWith("/docs/components")

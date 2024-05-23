@@ -363,7 +363,7 @@ export function Coolertsx({ className, ...props }: CardProps) {
                 <div className=" justify-end "></div>
               </div>
             </div>
-            <div className="overflow-y-auto max-h-80 px-4 py-2">
+            <div className="flex-col absolute top-16 left-10  md:max-w-l sm:max-w-sm lg:max-w-xl px-10 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-w sm:rounded-lg sm:px-10">
               {messages.map((message, index) => (
                 <div
                   key={index}
